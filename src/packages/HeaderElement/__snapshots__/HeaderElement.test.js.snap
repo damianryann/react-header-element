@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`is isFunctional false 1`] = `
+<HeaderElement
+  className="another-class"
+  fallBack="h1"
+  id="another-id"
+  isFunctional={false}
+  title="This is a Header"
+  value="h2"
+>
+  <div
+    className="h2 another-class"
+    id="another-id"
+  >
+    This is a Header
+  </div>
+</HeaderElement>
+`;
+
+exports[`is isFunctional true 1`] = `
+<HeaderElement
+  className="class-name"
+  fallBack="h2"
+  id="id-name"
+  isFunctional={true}
+  title="This is a Header"
+  value="h1"
+>
+  <h1
+    className="class-name"
+    id="id-name"
+  >
+    This is a Header
+  </h1>
+</HeaderElement>
+`;
+
+exports[`is value an h2 1`] = `
+<HeaderElement
+  className="another-class"
+  fallBack="h1"
+  id="another-id"
+  isFunctional={false}
+  title="This is a Header"
+  value="h2"
+>
+  <div
+    className="h2 another-class"
+    id="another-id"
+  >
+    This is a Header
+  </div>
+</HeaderElement>
+`;
+
+exports[`is value an h2 and is fallBack h1 1`] = `
+<HeaderElement
+  className="another-class"
+  fallBack="h1"
+  id="another-id"
+  isFunctional={false}
+  title="This is a Header"
+  value="h2"
+>
+  <div
+    className="h2 another-class"
+    id="another-id"
+  >
+    This is a Header
+  </div>
+</HeaderElement>
+`;
+
+exports[`is value an h2 and is fallBack h1 2`] = `
+<HeaderElement
+  className="another-class"
+  fallBack="h1"
+  id="another-id"
+  isFunctional={false}
+  title="This is a Header"
+  value="h2"
+>
+  <div
+    className="h2 another-class"
+    id="another-id"
+  >
+    This is a Header
+  </div>
+</HeaderElement>
+`;
+
+exports[`mounts without crashing 1`] = `
+<HeaderElement>
+  <div
+    className="h1"
+  />
+</HeaderElement>
+`;

@@ -22,21 +22,70 @@ exports[`mounts without crashing 1`] = `
               className="App-logo"
               src="logo.svg"
             />
-            <p>
-              Edit 
-              <code>
-                src/containers/App/App.js
-              </code>
-               and save to reload.
-            </p>
-            <a
-              className="App-link"
-              href="https://reactjs.org"
-              rel="noopener noreferrer"
-              target="_blank"
+            <HeaderElement
+              className="this-class"
+              fallBack="h2"
+              id="This is an ID"
+              isFunctional={true}
+              style={
+                Object {
+                  "color": "red",
+                  "fontWeight": "bold",
+                  "textDecoration": "underline",
+                }
+              }
+              title="This is a functional h1 Header (Header element) without fallback"
+              value="h1"
             >
-              Learn React
-            </a>
+              <h1
+                className="this-class"
+                id="This is an ID"
+                style={
+                  Object {
+                    "color": "red",
+                    "fontWeight": "bold",
+                    "textDecoration": "underline",
+                  }
+                }
+              >
+                This is a functional h1 Header (Header element) without fallback
+              </h1>
+            </HeaderElement>
+            <HeaderElement
+              className="name-here"
+              fallBack="h2"
+              id="This is an ID but on a class"
+              isFunctional={false}
+              title="This is a decorative h1 Header (Header class) without fallback"
+              value="h1"
+            >
+              <div
+                className="h1 name-here"
+                id="This is an ID but on a class"
+              >
+                This is a decorative h1 Header (Header class) without fallback
+              </div>
+            </HeaderElement>
+            <HeaderElement
+              fallBack="h2"
+              isFunctional={true}
+              title="This is a functional h2 Header (Header element) with fallback"
+            >
+              <h2>
+                This is a functional h2 Header (Header element) with fallback
+              </h2>
+            </HeaderElement>
+            <HeaderElement
+              fallBack="h2"
+              isFunctional={false}
+              title="This is a decorative h2 Header (Header class) with fallback"
+            >
+              <div
+                className="h2"
+              >
+                This is a decorative h2 Header (Header class) with fallback
+              </div>
+            </HeaderElement>
           </div>
         </div>
       </div>
