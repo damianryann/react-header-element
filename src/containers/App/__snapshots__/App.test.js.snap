@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`mounts without crashing 1`] = `
+<App>
+  <div
+    className="App"
+  >
+    <header
+      className="App-header"
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col"
+          >
+            <img
+              alt="logo"
+              className="App-logo"
+              src="logo.svg"
+            />
+            <p>
+              Edit 
+              <code>
+                src/containers/App/App.js
+              </code>
+               and save to reload.
+            </p>
+            <a
+              className="App-link"
+              href="https://reactjs.org"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Learn React
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+</App>
+`;
