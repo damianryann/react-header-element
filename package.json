@@ -1,13 +1,19 @@
 {
   "name": "react-header-element",
   "version": "1.0.0",
-  "description": "A simpler way for defining functional header tags and decorative class headers",
-  "main": "index.js",
+  "description": "A simple way for defining functional header tags and decorative class headers",
+  "main": "src/packages/index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/damianryann/react-header-element.git"
   },
+  "keywords": [],
+  "author": "Damian Ryan <damian@damianryan.co.uk>",
+  "bugs": {
+    "url": "https://github.com/damianryann/react-header-element/issues"
+  },
+  "homepage": "https://github.com/damianryann/react-header-element",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",

@@ -13,6 +13,7 @@ function App() {
           <div className="row">
             <div className="col">
               <img src={logo} className="App-logo" alt="logo" />
+
               <HeaderElement
                 isFunctional={true}
                 className="this-class"
@@ -20,7 +21,11 @@ function App() {
                 title="This is a functional h1 Header (Header element) without fallback"
                 value="h1"
                 fallBack="h2"
-                style={{ color: 'red', fontWeight: 'bold' }}
+                style={{
+                  color: 'red',
+                  fontWeight: 'bold',
+                  textDecoration: 'underline'
+                }}
               />
 
               <HeaderElement
