@@ -11,3 +11,15 @@ For more information see [WCAG 2.1 AA - Headings and Labels](https://www.w3.org/
 ## What does it solve?
 
 Simply put, it allows you to switch between a header element and a header class. Manually or via api fed from a CMS.
+
+## Props
+
+| Name           | Type      | Description                                                                       |
+| -------------- | --------- | --------------------------------------------------------------------------------- |
+| `isFunctional` | `Boolean` | **Required.** Is the element a header or a div class.                             |
+| `value`        | `String`  | **Required.** What header is it? h1 - h6.                                         |
+| `fallBack`     | `String`  | **Required.** The header you wish to fall back on should no value exist (h1 - h6) |
+| `title`        | `String`  | **Required.** The title of your header.                                           |
+| `className`    | `String`  | Add additional classes for styling.                                               |
+| `id`           | `String`  | Add an ID for behaviours such as anchors.                                         |
+| `style`        | `String`  | Use inline styling should you need to dynamically add CSS.                        |
