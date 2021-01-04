@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 function HeaderElement(props) {
   const { title, isFunctional, value, fallBack, className, id, style } = props;
@@ -42,7 +42,7 @@ function HeaderElement(props) {
   }
 
   return (
-    <Fragment>
+    <React.Fragment>
       {isFunctional === true ? (
         <HeaderElement
           className={addClassToTag()}
@@ -56,7 +56,7 @@ function HeaderElement(props) {
           {title}
         </div>
       )}
-    </Fragment>
+    </React.Fragment>
   );
 }
 
