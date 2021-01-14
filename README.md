@@ -17,7 +17,7 @@ Simply put, it allows you to switch between a header element and a header class.
 | Name           | Type      | Description                                                                       |
 | -------------- | --------- | --------------------------------------------------------------------------------- |
 | `isFunctional` | `Boolean` | **Required.** Is the element a header or a div class.                             |
-| `value`        | `String`  | **Required.** What header is it? h1 - h6.                                         |
+| `value`        | `String`  | **Required.** What header is it? h1 - h6 / p.                                     |
 | `fallBack`     | `String`  | **Required.** The header you wish to fall back on should no value exist (h1 - h6) |
 | `title`        | `String`  | **Required.** The title of your header.                                           |
 | `className`    | `String`  | Add additional classes for styling.                                               |

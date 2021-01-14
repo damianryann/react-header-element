@@ -13,21 +13,6 @@ function App() {
           <div className="row">
             <div className="col">
               <img src={logo} className="App-logo" alt="logo" />
-
-              <HeaderElement
-                isFunctional={true}
-                className="this-class"
-                id="This is an ID"
-                title="This is a functional h1 Header (Header element) without fallback"
-                value="h1"
-                fallBack="h2"
-                style={{
-                  color: 'red',
-                  fontWeight: 'bold',
-                  textDecoration: 'underline'
-                }}
-              />
-
               <HeaderElement
                 isFunctional={false}
                 className="name-here"
@@ -41,12 +26,14 @@ function App() {
                 isFunctional={true}
                 title="This is a functional h2 Header (Header element) with fallback"
                 fallBack="h2"
+                value="h1"
               />
 
               <HeaderElement
                 isFunctional={false}
                 title="This is a decorative h2 Header (Header class) with fallback"
                 fallBack="h2"
+                value="h3"
               />
             </div>
           </div>
