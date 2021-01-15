@@ -71,7 +71,13 @@ function HeaderElement(props) {
 }
 
 HeaderElement.propTypes = {
-  name: PropTypes.string,
+  title: PropTypes.string,
+  isFunctional: PropTypes.bool,
+  value: PropTypes.string,
+  fallBack: PropTypes.string,
+  className: PropTypes.string,
+  id: PropTypes.string,
+  style: PropTypes.string,
 };
 
 export default HeaderElement;

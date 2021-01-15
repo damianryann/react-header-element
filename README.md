@@ -1,6 +1,6 @@
 # React Header Element
 
-Add condtional header logic to your App to seamlessly switch between 'Functional' header elements `html <h1>` and decorative header classes `html <div class="h1">` to assist in aligning your site to WCAG guidelines for misused headers.
+Add condtional header logic to your App to seamlessly switch between 'Functional' header elements `<h1>` and decorative header classes `<div class="h1">` to assist in aligning your site to WCAG guidelines for misused headers.
 
 ## Why was this package created?
 
