@@ -4,7 +4,7 @@ Add condtional header logic to your App to seamlessly switch between 'Functional
 
 ## Why was this package created?
 
-Accissibility for websites is now more desired than ever with growing online usage. As such, making user experiences for those who use assisted technologies better is the main reason for this package.
+Accessibility for websites is now more desired than ever with growing online usage. As such, making user experiences for those who use assisted technologies better is the main reason for this package.
 
 For more information see [WCAG 2.1 AA - Headings and Labels](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=246#headings-and-labels).
 

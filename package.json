@@ -1,6 +1,6 @@
 {
   "name": "react-header-element",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "A simple way for defining functional header tags and decorative class headers",
   "main": "./build/index.js",
   "scripts": {
