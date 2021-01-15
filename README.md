@@ -1,18 +1,50 @@
-# react-header-element
+# React Header Element
 
-Add condtional header logic to your App to seamlessly switch between 'Functional' header tags and decorative header classes to align your site to WCAG guidelines for misused headers.
+Add condtional header logic to your App to seamlessly switch between 'Functional' header elements `html <h1>` and decorative header classes `html <div class="h1">` to assist in aligning your site to WCAG guidelines for misused headers.
 
 ## Why was this package created?
 
-Accissibility for websites is now more desired than ever with growing online usage. As such making user experiences for those who use assisted technologys much better is the main reason for thos package. Header tags are misused by many websites and to confirm to WCAG guidence, some misused headers get used for decorative purposes. This package allows for you to switch between tags and div classes to achieve the correct usage.
+Accissibility for websites is now more desired than ever with growing online usage. As such, making user experiences for those who use assisted technologies better is the main reason for this package.
 
 For more information see [WCAG 2.1 AA - Headings and Labels](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=246#headings-and-labels).
 
 ## What does it solve?
 
-Simply put, it allows you to switch between a header element and a header class. Manually or via api fed from a CMS.
+Simply put, it allows you to switch between a header element and a header class by specifying the criteria or via api fed from a CMS. It keeps it tidy and reduces unnecessary extra lines of code.
 
-## Props
+## Basic Usage
+
+```js
+import React from "react";
+import HeaderElement from "react-header-element";
+
+const ComponentName = () => {
+  return (
+    <div className="container">
+      <div className="row">
+        <div className="col-md-12">
+          <HeaderElement
+            isFunctional={true}
+            title="Hello World"
+            value="h1"
+            fallBack="h2"
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ComponentName;
+```
+
+## Installation
+
+```bash
+npm install react-header-element --save
+```
+
+## Available Props
 
 | Name           | Type      | Description                                                                       |
 | -------------- | --------- | --------------------------------------------------------------------------------- |
